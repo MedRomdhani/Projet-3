@@ -1,0 +1,30 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center center;
+  line-height: 2rem;
+  margin: 0 auto;
+}
+
+header ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+
+}
+
+header .btn {
+  display: none;
+}
+
+header ul li {
+  padding: 0;
+}
+
+.showcase {
+  display: block;
+}
+
+.main {
+  display: block;
+}
